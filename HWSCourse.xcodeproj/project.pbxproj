@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		145566052A60F3CC00498E49 /* ContainAnother.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145566042A60F3CC00498E49 /* ContainAnother.swift */; };
+		145566212A6239D800498E49 /* CondenseWhitespace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145566202A6239D800498E49 /* CondenseWhitespace.swift */; };
+		145566232A623B7300498E49 /* RotatedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145566222A623B7300498E49 /* RotatedString.swift */; };
+		145566252A623F8600498E49 /* Pangrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145566242A623F8600498E49 /* Pangrams.swift */; };
 		1480F34E2A374AB6005E5455 /* InsertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1480F34D2A374AB6005E5455 /* InsertionSort.swift */; };
 		14B0BD4C2A269741007E8A11 /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B0BD4B2A269741007E8A11 /* MergeSort.swift */; };
 		14B0BD4E2A26A164007E8A11 /* RemoveDups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B0BD4D2A26A164007E8A11 /* RemoveDups.swift */; };
@@ -36,6 +39,9 @@
 
 /* Begin PBXFileReference section */
 		145566042A60F3CC00498E49 /* ContainAnother.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainAnother.swift; sourceTree = "<group>"; };
+		145566202A6239D800498E49 /* CondenseWhitespace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CondenseWhitespace.swift; sourceTree = "<group>"; };
+		145566222A623B7300498E49 /* RotatedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedString.swift; sourceTree = "<group>"; };
+		145566242A623F8600498E49 /* Pangrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pangrams.swift; sourceTree = "<group>"; };
 		1480F34D2A374AB6005E5455 /* InsertionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSort.swift; sourceTree = "<group>"; };
 		14B0BD4B2A269741007E8A11 /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
 		14B0BD4D2A26A164007E8A11 /* RemoveDups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDups.swift; sourceTree = "<group>"; };
@@ -69,6 +75,9 @@
 				14B0BD592A28D6C3007E8A11 /* Palindrome.swift */,
 				14B0BD5B2A28D959007E8A11 /* SameCharacters.swift */,
 				145566042A60F3CC00498E49 /* ContainAnother.swift */,
+				145566202A6239D800498E49 /* CondenseWhitespace.swift */,
+				145566222A623B7300498E49 /* RotatedString.swift */,
+				145566242A623F8600498E49 /* Pangrams.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -174,6 +183,8 @@
 			files = (
 				14B0BD582A28D560007E8A11 /* UniqueLetters.swift in Sources */,
 				14B0BD5C2A28D959007E8A11 /* SameCharacters.swift in Sources */,
+				145566252A623F8600498E49 /* Pangrams.swift in Sources */,
+				145566232A623B7300498E49 /* RotatedString.swift in Sources */,
 				14B0BD542A28B70D007E8A11 /* SecondSmallest.swift in Sources */,
 				14C33A402A327EB0003B9B6A /* PreOrderBinaryTree.swift in Sources */,
 				14B0BD4E2A26A164007E8A11 /* RemoveDups.swift in Sources */,
@@ -183,6 +194,7 @@
 				14B0BD562A28C257007E8A11 /* Sorting.swift in Sources */,
 				14B0BD522A27E65A007E8A11 /* BubbleSort.swift in Sources */,
 				1480F34E2A374AB6005E5455 /* InsertionSort.swift in Sources */,
+				145566212A6239D800498E49 /* CondenseWhitespace.swift in Sources */,
 				14B0BD502A26ECA2007E8A11 /* SumFound.swift in Sources */,
 				14D064CE2A1832120040D357 /* main.swift in Sources */,
 			);
