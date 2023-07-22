@@ -12,7 +12,6 @@ func palindrome(input: String) -> Bool {
     return Array(input.lowercased()) == Array(reverseStr)
 }
 
-//Test cases:
 //palindrome(input: "rotator")//true
 //palindrome(input: "Rats live evil star")//true
 //palindrome(input: "Never odd or even")//false
