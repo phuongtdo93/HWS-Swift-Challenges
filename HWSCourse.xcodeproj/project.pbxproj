@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		14230F4A2A6C86AA0097BA03 /* 20.CustomPow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14230F492A6C86AA0097BA03 /* 20.CustomPow.swift */; };
+		14230F4C2A6C8A940097BA03 /* 21.SwapNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14230F4B2A6C8A940097BA03 /* 21.SwapNumber.swift */; };
 		143A0DE82A67DC36009E9A9D /* 12.VowelsConsonants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143A0DE72A67DC36009E9A9D /* 12.VowelsConsonants.swift */; };
 		143A0DFF2A6B18D7009E9A9D /* 13.3DifferentLetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143A0DFE2A6B18D7009E9A9D /* 13.3DifferentLetter.swift */; };
 		143A0E012A6B22DA009E9A9D /* 14.LongestPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143A0E002A6B22DA009E9A9D /* 14.LongestPrefix.swift */; };
@@ -23,6 +24,13 @@
 		145566232A623B7300498E49 /* 10.RotatedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145566222A623B7300498E49 /* 10.RotatedString.swift */; };
 		145566252A623F8600498E49 /* 11.Pangrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145566242A623F8600498E49 /* 11.Pangrams.swift */; };
 		1480F34E2A374AB6005E5455 /* InsertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1480F34D2A374AB6005E5455 /* InsertionSort.swift */; };
+		14A51BB62A6C8D4200C1D153 /* 22.CheckIsPrime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A51BB52A6C8D4200C1D153 /* 22.CheckIsPrime.swift */; };
+		14A51BB82A6D57FE00C1D153 /* 23.CountOneBinary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A51BB72A6D57FE00C1D153 /* 23.CountOneBinary.swift */; };
+		14A51BBA2A6D5D5200C1D153 /* 24.BinaryReverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A51BB92A6D5D5200C1D153 /* 24.BinaryReverse.swift */; };
+		14A51BBC2A6D5FB900C1D153 /* 25.IntegerDisguised.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A51BBB2A6D5FB900C1D153 /* 25.IntegerDisguised.swift */; };
+		14A51BBE2A6DA88400C1D153 /* 26.AddNumberInsideString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A51BBD2A6DA88400C1D153 /* 26.AddNumberInsideString.swift */; };
+		14A51BC02A6DAEFD00C1D153 /* 27.CustomSqrt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A51BBF2A6DAEFD00C1D153 /* 27.CustomSqrt.swift */; };
+		14A51BC42A6DB6DF00C1D153 /* 28.SubtractWithoutSubtract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A51BC32A6DB6DF00C1D153 /* 28.SubtractWithoutSubtract.swift */; };
 		14B0BD4C2A269741007E8A11 /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B0BD4B2A269741007E8A11 /* MergeSort.swift */; };
 		14B0BD4E2A26A164007E8A11 /* RemoveDups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B0BD4D2A26A164007E8A11 /* RemoveDups.swift */; };
 		14B0BD502A26ECA2007E8A11 /* SumFound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B0BD4F2A26ECA2007E8A11 /* SumFound.swift */; };
@@ -50,6 +58,7 @@
 
 /* Begin PBXFileReference section */
 		14230F492A6C86AA0097BA03 /* 20.CustomPow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 20.CustomPow.swift; sourceTree = "<group>"; };
+		14230F4B2A6C8A940097BA03 /* 21.SwapNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 21.SwapNumber.swift; sourceTree = "<group>"; };
 		143A0DE72A67DC36009E9A9D /* 12.VowelsConsonants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 12.VowelsConsonants.swift; sourceTree = "<group>"; };
 		143A0DFE2A6B18D7009E9A9D /* 13.3DifferentLetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 13.3DifferentLetter.swift; sourceTree = "<group>"; };
 		143A0E002A6B22DA009E9A9D /* 14.LongestPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 14.LongestPrefix.swift; sourceTree = "<group>"; };
@@ -65,6 +74,13 @@
 		145566222A623B7300498E49 /* 10.RotatedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10.RotatedString.swift; sourceTree = "<group>"; };
 		145566242A623F8600498E49 /* 11.Pangrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11.Pangrams.swift; sourceTree = "<group>"; };
 		1480F34D2A374AB6005E5455 /* InsertionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSort.swift; sourceTree = "<group>"; };
+		14A51BB52A6C8D4200C1D153 /* 22.CheckIsPrime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 22.CheckIsPrime.swift; sourceTree = "<group>"; };
+		14A51BB72A6D57FE00C1D153 /* 23.CountOneBinary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 23.CountOneBinary.swift; sourceTree = "<group>"; };
+		14A51BB92A6D5D5200C1D153 /* 24.BinaryReverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 24.BinaryReverse.swift; sourceTree = "<group>"; };
+		14A51BBB2A6D5FB900C1D153 /* 25.IntegerDisguised.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 25.IntegerDisguised.swift; sourceTree = "<group>"; };
+		14A51BBD2A6DA88400C1D153 /* 26.AddNumberInsideString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 26.AddNumberInsideString.swift; sourceTree = "<group>"; };
+		14A51BBF2A6DAEFD00C1D153 /* 27.CustomSqrt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 27.CustomSqrt.swift; sourceTree = "<group>"; };
+		14A51BC32A6DB6DF00C1D153 /* 28.SubtractWithoutSubtract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 28.SubtractWithoutSubtract.swift; sourceTree = "<group>"; };
 		14B0BD4B2A269741007E8A11 /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
 		14B0BD4D2A26A164007E8A11 /* RemoveDups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDups.swift; sourceTree = "<group>"; };
 		14B0BD4F2A26ECA2007E8A11 /* SumFound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumFound.swift; sourceTree = "<group>"; };
@@ -96,6 +112,14 @@
 				143A0E0D2A6C8268009E9A9D /* 18.FizzBuzz.swift */,
 				143A0E0F2A6C84D4009E9A9D /* 19.ReturnRandormNumber.swift */,
 				14230F492A6C86AA0097BA03 /* 20.CustomPow.swift */,
+				14230F4B2A6C8A940097BA03 /* 21.SwapNumber.swift */,
+				14A51BB52A6C8D4200C1D153 /* 22.CheckIsPrime.swift */,
+				14A51BB72A6D57FE00C1D153 /* 23.CountOneBinary.swift */,
+				14A51BB92A6D5D5200C1D153 /* 24.BinaryReverse.swift */,
+				14A51BBB2A6D5FB900C1D153 /* 25.IntegerDisguised.swift */,
+				14A51BBD2A6DA88400C1D153 /* 26.AddNumberInsideString.swift */,
+				14A51BBF2A6DAEFD00C1D153 /* 27.CustomSqrt.swift */,
+				14A51BC32A6DB6DF00C1D153 /* 28.SubtractWithoutSubtract.swift */,
 			);
 			path = Number;
 			sourceTree = "<group>";
@@ -150,7 +174,6 @@
 		14D064CC2A1832120040D357 /* HWSCourse */ = {
 			isa = PBXGroup;
 			children = (
-				143A0E0C2A6C79E0009E9A9D /* Number */,
 				14D064CD2A1832120040D357 /* main.swift */,
 				14B0BD4B2A269741007E8A11 /* MergeSort.swift */,
 				14B0BD4D2A26A164007E8A11 /* RemoveDups.swift */,
@@ -159,6 +182,7 @@
 				14B0BD532A28B70D007E8A11 /* SecondSmallest.swift */,
 				14B0BD552A28C257007E8A11 /* Sorting.swift */,
 				145566032A60F3B400498E49 /* String */,
+				143A0E0C2A6C79E0009E9A9D /* Number */,
 				14C33A3F2A327EB0003B9B6A /* PreOrderBinaryTree.swift */,
 			);
 			path = HWSCourse;
@@ -224,11 +248,16 @@
 			files = (
 				143A0E0E2A6C8268009E9A9D /* 18.FizzBuzz.swift in Sources */,
 				143A0E092A6B618F009E9A9D /* 7.CountCharacters.swift in Sources */,
+				14A51BBA2A6D5D5200C1D153 /* 24.BinaryReverse.swift in Sources */,
+				14A51BBE2A6DA88400C1D153 /* 26.AddNumberInsideString.swift in Sources */,
 				14B0BD582A28D560007E8A11 /* 3.UniqueLetters.swift in Sources */,
+				14A51BB82A6D57FE00C1D153 /* 23.CountOneBinary.swift in Sources */,
 				143A0E072A6B465B009E9A9D /* 17.ReverseWord.swift in Sources */,
 				14B0BD5C2A28D959007E8A11 /* 5.SameCharacters.swift in Sources */,
 				145566252A623F8600498E49 /* 11.Pangrams.swift in Sources */,
 				145566232A623B7300498E49 /* 10.RotatedString.swift in Sources */,
+				14230F4C2A6C8A940097BA03 /* 21.SwapNumber.swift in Sources */,
+				14A51BB62A6C8D4200C1D153 /* 22.CheckIsPrime.swift in Sources */,
 				143A0E012A6B22DA009E9A9D /* 14.LongestPrefix.swift in Sources */,
 				143A0E052A6B3288009E9A9D /* 16.Permutation.swift in Sources */,
 				14B0BD542A28B70D007E8A11 /* SecondSmallest.swift in Sources */,
@@ -242,6 +271,9 @@
 				143A0DE82A67DC36009E9A9D /* 12.VowelsConsonants.swift in Sources */,
 				14B0BD522A27E65A007E8A11 /* BubbleSort.swift in Sources */,
 				143A0DFF2A6B18D7009E9A9D /* 13.3DifferentLetter.swift in Sources */,
+				14A51BC42A6DB6DF00C1D153 /* 28.SubtractWithoutSubtract.swift in Sources */,
+				14A51BBC2A6D5FB900C1D153 /* 25.IntegerDisguised.swift in Sources */,
+				14A51BC02A6DAEFD00C1D153 /* 27.CustomSqrt.swift in Sources */,
 				1480F34E2A374AB6005E5455 /* InsertionSort.swift in Sources */,
 				145566212A6239D800498E49 /* 9.CondenseWhitespace.swift in Sources */,
 				143A0E032A6B2D9A009E9A9D /* 15.RunLengthEncode.swift in Sources */,

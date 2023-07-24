@@ -16,7 +16,6 @@ extension Array where Element : Comparable {
             var smallIdx = valReturn[count - 1]
             for i in count-2 ... 0 {
 //                if valReturn[i] > valReturn[smallIdx] {
-//                    valReturn.swapAt(<#T##i: Int##Int#>, <#T##j: Int##Int#>)
 //                }
             }
             
