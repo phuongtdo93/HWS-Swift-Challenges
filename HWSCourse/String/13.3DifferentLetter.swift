@@ -7,19 +7,16 @@
 
 import Foundation
 
+//Write a function that accepts 2 strings, and returns true if they are identical in length but have no more than three different letters, taking case and string order into account
 func threeDifferentLetter(input: String, input1: String) -> Bool {
-    guard input.count == input1.count else {
-        return false
-    }
-    
-    var count = 4
-    let input1Arr = Array(input1.lowercased())
-    for (index, char) in input.lowercased().enumerated() {
-        if input1Arr[index] != char {
+    guard input.count == input1.count else { return false }
+            
+    let str1 = Array(input1.lowercased())
+    var count = 3
+    for (idx, item) in input.lowercased().enumerated() {
+        if str1[idx] != item {
             count -= 1
-            if count == 0 {
-                return false
-            }
+            if count < 0 { return false }
         }
     }
     return true

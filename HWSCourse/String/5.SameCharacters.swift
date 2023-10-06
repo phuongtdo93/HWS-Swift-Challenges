@@ -7,6 +7,8 @@
 
 import Foundation
 
+//Do 2 strings contain the same characters
+//Write a function that accepts 2 String parameters, and returns true if they contain the same characters in any order taking into account letter case
 func sameCharacters(input1: String, input2: String) -> Bool {
     let in1 = input1.filter { $0 != " " }
     let in2 = input2.filter { $0 != " " }

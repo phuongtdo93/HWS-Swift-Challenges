@@ -7,7 +7,7 @@
 
 import Foundation
 
-
+//Write a function that accepts 2 strings, and returns true if one string is rotation of the other, taking letter case into account
 func rotatedString(input: String, input2: String) -> Bool {
     if input.count != input2.count {
         return false

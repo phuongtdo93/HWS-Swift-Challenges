@@ -7,6 +7,8 @@
 
 import Foundation
 
+//Condense whitespace
+//Write a function that returns a string with any consecutive spaces replaced with a single space
 func condenseWhitespace(input: String) -> String {
     return input.replacingOccurrences(of: " +", with: " ", options: .regularExpression)}
 

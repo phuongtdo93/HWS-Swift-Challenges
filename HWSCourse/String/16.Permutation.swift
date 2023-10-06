@@ -8,9 +8,9 @@
 import Foundation
 
 
-func challenge(input: String) -> [String] {
-    
-}
+//func challenge(input: String) -> [String] {
+//    
+//}
 
 func subFunc(leftStr: String, rightStr: String) -> [String] {
     if rightStr.count == 0 { return [String(leftStr.reversed())] }

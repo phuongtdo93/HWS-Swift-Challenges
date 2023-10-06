@@ -7,6 +7,7 @@
 
 import Foundation
 
+//Write a function accepts a string as its input, and returns the sae string just with duplicate letters removed 
 func removeDuplicate(input: String) -> String {
     input.reduce("") { $0.contains($1) ? $0 : "\($0)\($1)"}
 }

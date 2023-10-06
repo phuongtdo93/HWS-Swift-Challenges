@@ -28,3 +28,4 @@ func addNumberInsideString(input: String) -> Int {
 //addNumberInsideString(input: "a1b2c3")//6
 //addNumberInsideString(input: "a10b20c30")//60
 //addNumberInsideString(input: "a8buy")//8
+//addNumberInsideString(input: "88bu2")//90
