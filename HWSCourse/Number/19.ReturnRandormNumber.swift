@@ -6,7 +6,7 @@
 //
 
 import Foundation
-
+//Write a function that accepts prositive minumun and maximun intergers, and returns a random number between those two bounds, inclusive
 func returnRandormNumber(min: Int, max: Int) -> Int {
     Int.random(in: min...max)
     

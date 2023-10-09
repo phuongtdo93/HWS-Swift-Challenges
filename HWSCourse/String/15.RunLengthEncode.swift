@@ -7,6 +7,9 @@
 
 import Foundation
 
+// Write a functuon that accepts a string as input, then returns how often each letter is repeated in a single run, taking case into account
+//Tips: This approach is used a simple lossless compression technique called run-length encoding
+
 func runLengthEncode(input: String) -> String {
     guard var firstLetter = input.first else { return "" }
     var returnString = ""

@@ -7,6 +7,7 @@
 
 import Foundation
 
+//Create a function that substracts one positive integer from another, without using -
 func subtractWithoutSubtract(subtract: Int, from: Int) -> UInt {
     print (~subtract)
     print(~subtract + 1)

@@ -6,6 +6,7 @@
 //
 
 import Foundation
+//Swap 2 positive variable intergers, a and b, without using a temporary variable
 func swapNumber(a: inout Int, b: inout Int) {
     swap(&a, &b)
 }

@@ -7,6 +7,8 @@
 
 import Foundation
 
+//Create a function that accepts positive 2 intergers, and raises the first to ther power of the second
+
 func customPow(num: Int, pow: Int) -> Int {
     guard num > 0, pow > 0 else { return 0 }
     if pow == 0 { return 1 }

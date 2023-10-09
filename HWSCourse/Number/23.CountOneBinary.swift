@@ -7,6 +7,8 @@
 
 import Foundation
 
+//Create a function that accepts any positive integer and returns the next highest and next lowest number that has the same number of ones in its binary representation. If either number is not possible, return nil for it.
+
 func countOneBinary(num: Int) -> (nextHighest: Int?, nextLowest: Int?) {
     
     func count1s(num: Int) -> Int {

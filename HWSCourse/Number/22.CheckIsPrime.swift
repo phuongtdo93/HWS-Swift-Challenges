@@ -6,7 +6,8 @@
 //
 
 import Foundation
-
+//Write a function that accepts an intefer as its parameter and returns true if the number is prime
+//Tips: a number is considered prome if it is grater than one and has no positive  divisors other than 1 and itself
 
 func checkIsPrime(num: Int) -> Bool {
     if num < 1 { return false }

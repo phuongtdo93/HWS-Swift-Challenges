@@ -7,6 +7,8 @@
 
 import Foundation
 
+//Given a string that contains both letters and numbers, write a function that pulls out all the numbers then returns their sum
+
 func addNumberInsideString(input: String) -> Int {
     var currentNumber = ""
     var sum = 0
@@ -23,6 +25,13 @@ func addNumberInsideString(input: String) -> Int {
     }
     sum += Int(currentNumber) ?? 0
     return sum
+}
+
+func addNumberInsideString1(input: String) -> Int {
+    let strInput = input.lowercased().replacingOccurrences(of: "[a-z]", with: " ", options: .regularExpression)
+        .replacingOccurrences(of: " +", with: " ", options: .regularExpression).components(separatedBy: " ")
+    let reduceRes = strInput.reduce(0) { Int($0) + (Int($1) ?? 0) }
+    return reduceRes
 }
 
 //addNumberInsideString(input: "a1b2c3")//6

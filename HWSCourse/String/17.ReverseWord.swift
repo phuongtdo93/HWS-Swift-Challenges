@@ -7,6 +7,7 @@
 
 import Foundation
 
+//Write a function that returns a string with each of its words reversef but in the original order, without using a loop
 func reverseWord(input: String) -> String {
     let parts = input.components(separatedBy: " ")
     var arrItem = parts.map { String($0.reversed()) }
